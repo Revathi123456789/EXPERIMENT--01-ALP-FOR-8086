@@ -1,7 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+
+Name :REVATHI K
+
+Roll no :212223040169
+
+Date of experiment : 16.08.2024
 
 
 
@@ -15,19 +18,18 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,
+    DIVISION operations 
 
-4.	 Compile the program and check for the errors 
-5.	Run (once there is no syntax error) 
+5.	 Compile the program and check for the errors 
+6.	Run (once there is no syntax error) 
 
-6.	Click OK to see/view the output of your program on the Emulator screen. 
+7.	Click OK to see/view the output of your program on the Emulator screen. 
 
 
-7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8.	 
+8.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
+9.	 
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
@@ -78,24 +80,61 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+ORG 100h
+MOV ax,11h;
+MOV bx,20h;
+ADD ax,bx;
+HLT
+```
 ## Output  
+<img width="617" alt="pmc img1" src="https://github.com/user-attachments/assets/bd81209b-26dc-40d1-9194-bcf5ecd3291f">
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+ORG 100h
+MOV ax,31h;
+MOV bx,20h;
+SUB ax,bx;
+HLT
+```
  
 ## Output  
+![Screenshot 2024-08-22 203306](https://github.com/user-attachments/assets/7159129a-fcc7-4d6d-bf0e-b38dbeb34cb5)
+
 ## Multiplication alp 
+```
+ORG 100h
+MOV ax,31h;
+MOV bx,20h;
+MUL bx;
+HLT
+```
  ## Output  
+<img width="618" alt="mul pmc" src="https://github.com/user-attachments/assets/7a1431e5-acc4-41b0-ab9b-521027f2bc23">
+
 
 
 ## Division alp 
+```
+ORG 100h
+MOV ax,10h;
+MOV bx,05h;
+DIV bx;
+HLT
+```
 
 ## Output  
+<img width="614" alt="div pmc" src="https://github.com/user-attachments/assets/955388b5-b3dc-43a0-8e6e-5c1bb9fd59ba">
+
+
 
 
 ## Result :
+Thus, to write and execute ALP on fundamental arithmetic operations is successful.
+
+
  
 
 
